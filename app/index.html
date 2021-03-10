@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<meta name="theme-color" content="#111111">
+	<title>Wine site</title>
+	<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+	<link rel="stylesheet" href="css/main.min.css">
+</head>
+<body>
+	<header class="header">
+  <div class="container">
+    <div class="top-bar">
+      <div class="top-bar__logan">We Ship Everywhere! Free In The Us!</div>
+      <div class="top-bar__logo">
+        <img src="../img/logo.png" alt="">
+      </div>
+      <div class="top-bar__about">
+        <div class="top-bar__links">
+          <a href="#">Login</a>
+          <a href="#">Register</a>
+          <a href="#">Wish List (0)</a>
+        </div>
+        <div class="top-bar__icons">
+          <div class="top-bar__icon">
+            <svg>
+              <use xlink:href="img/sprite.svg#search"></use>
+            </svg>
+          </div>
+          <div class="top-bar__icon">
+            <svg>
+              <use xlink:href="img/sprite.svg#cart"></use>
+            </svg>
+          </div>
+          <div class="top-bar__icon burger">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <nav>
+      <ul class="top-menu">
+        <li><a class=" active"href="">Home</a></li>
+        <li><a href="">Vintage</a></li>
+        <li><a href="">Imperial</a></li>
+        <li><a href="">Sparkling</a></li>
+        <li><a href="">Accessories</a></li>
+        <li><a href="">Blog</a></li>
+        <li><a href="">Product Details</a></li>
+        <li><a href="">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+	<main>
+		<section class="each-bottle">
+			<div class="container">
+				<div class="each-bottle__text">
+					The Experlence of Generations
+				</div>
+				<div class="each-bottle__title">
+					In each <span>bottle</span>
+				</div>
+				<p class="each-bottle__small-text">Experience a true “American Dream” at Winehouse and visit the first tasting room in the United
+					States established by a former European mirgant vineyard worker and his family.</p>
+				<a href="#" class="each-bottle__link">READ MORE</a>	
+				<div class="each-bottle__img">
+					<img src="img/bottle.png" alt="">
+				</div>
+			</div>
+		</section>
+		<section class="new-wines">
+			<div class="container">
+				<div class="new-wines__slider swiper-container">
+					<div class="swiper-wrapper">
+						<div class="new-wines__item swiper-slide">
+							<div class="new-wines__text text-block">
+								<span>New Wines</span>
+								<div class="text-block__title">Merlot</div>
+								<div class="text-block__sub-title">Winehouse Vineyard</div>
+								<p class="text-block__paragraph">Merlot is loved for its boisterous black cherry flavors, supple
+									tannins, and chocolatey finish. On the high end, it’s often
+									mistaken with Cabernet Sauvignon.
+								</p>
+								<div class="text-block__links">
+									<a href="#" class="learn-more">Learn more</a>
+									<a href="#" class="view-more">View more</a>
+								</div>
+							</div>
+							<div class="new-wines__image">
+								 <div class="new-wines__image--bottle">
+									 <img src="img/bottle-slider.png" alt="">
+								 </div>
+								 <div class="swiper-button-prev">Prev</div>
+								 <div class="swiper-button-next">Next</div>
+							</div>
+						</div>
+						<div class="new-wines__item swiper-slide">
+							<div class="new-wines__text text-block">
+								<span>New Wines</span>
+								<div class="text-block__title">Merlot</div>
+								<div class="text-block__sub-title">Winehouse Vineyard</div>
+								<p class="text-block__paragraph">Merlot is loved for its boisterous black cherry flavors, supple
+									tannins, and chocolatey finish. On the high end, it’s often
+									mistaken with Cabernet Sauvignon.
+								</p>
+								<div class="text-block__links">
+									<a href="#" class="learn-more">Learn more</a>
+									<a href="#" class="view-more">View more</a>
+								</div>
+							</div>
+							<div class="new-wines__image">
+								 <div class="new-wines__image--bottle">
+									 <img src="img/bottle-slider.png" alt="">
+								 </div>
+								 <div class="swiper-button-prev">Prev</div>
+								 <div class="swiper-button-next">Next</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="section section_title futured-products">
+    <div class="container">
+        <h2 class="futured-products__title">Futured <span>Products</span></h2>
+        <div class="futured-products__buttons">
+            <button class="futured-products__button active">All</button>
+            <button class="futured-products__button" data-filter=".red">Red</button>
+            <button class="futured-products__button" data-filter=".rose">Rose</button>
+            <button class="futured-products__button" data-filter=".white">White</button>
+        </div>
+        <div class="futured-products__grid">
+            <div class="futured-products__item futured-item rose">
+                <div class="futured-item__discount">30% off</div>
+                <div class="futured-item__img">
+                    <img src="img/vine-bottle1.png" alt="">
+                </div>
+                <div class="futured-item__name">Silver Oak</div>
+                <div class="futured-item__price"><span>$500.00</span>$450.00</div>
+            </div>
+            <div class="futured-products__item futured-item red">
+                <div class="futured-item__discount">45% off</div>
+                <div class="futured-item__img">
+                    <img src="img/vine-bottle3.png" alt="">
+                </div>
+                <div class="futured-item__name">2015 Woodenhead </div>
+                <div class="futured-item__price"><span>$150.00</span>$120.00</div>
+            </div>
+            <div class="futured-products__item futured-item red">
+                <div class="futured-item__discount">20% off</div>
+                <div class="futured-item__img">
+                    <img src="img/vine-bottle4.png" alt="">
+                </div>
+                <div class="futured-item__name">2014 red hills</div>
+                <div class="futured-item__price"><span>$1000.00</span>$800.00</div>
+            </div>
+            <div class="futured-products__item futured-item rose">
+                <div class="futured-item__discount">30% off</div>
+                <div class="futured-item__img">
+                    <img src="img/vine-bottle5.png" alt="">
+                </div>
+                <div class="futured-item__name">2008  Cabernet</div>
+                <div class="futured-item__price"><span>$500.00</span>$450.00</div>
+            </div>
+            <div class="futured-products__item futured-item red">
+                <div class="futured-item__discount">20% off</div>
+                <div class="futured-item__img">
+                    <img src="img/vine-bottle6.png" alt="">
+                </div>
+                <div class="futured-item__name">Penfolds uncorks </div>
+                <div class="futured-item__price"><span>$400.00</span>$360.00</div>
+            </div>
+            <div class="futured-products__item futured-item white">
+                <div class="futured-item__discount">New</div>
+                <div class="futured-item__img">
+                    <img src="img/vine-bottle7.png" alt="">
+                </div>
+                <div class="futured-item__name ">2012 Jacob's</div>
+                <div class="futured-item__price"><span>$1000.00</span>$950.00</div>
+            </div>
+            <div class="futured-products__item futured-item rose">
+                <div class="futured-item__discount">45% off</div>
+                <div class="futured-item__img">
+                    <img src="img/vine-bottle3.png" alt="">
+                </div>
+                <div class="futured-item__name">2015 Woodenhead </div>
+                <div class="futured-item__price"><span>$150.00</span>$120.00</div>
+            </div>
+            <div class="futured-products__item futured-item rose">
+                <div class="futured-item__discount">20% off</div>
+                <div class="futured-item__img">
+                    <img src="img/vine-bottle4.png" alt="">
+                </div>
+                <div class="futured-item__name">2014 red hills</div>
+                <div class="futured-item__price"><span>$1000.00</span>$800.00</div>
+            </div>
+        </div>
+        <a href="##" class="futured-products__link">View MORE</a>
+    </div>
+
+
+</section>
+		<section class="section section_title client-review">
+    <div class="container">
+        <h2 class="client-review__title">Client <span>Review</span></h2>
+        <div class="client-review__slider swiper-container">
+            <div class="swiper-wrapper">
+                <div class="client-review__slide swiper-slide review-slide">
+                    <img src="img/review-img.png" alt="" class="review-slide__img"/>
+                    <div class="review-slide__name">David Luice</div>
+                    <div class="review-slide__text">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget lectus pulvinar venenatis volutpat, lacinia sagittis.
+                        Vulputate habitasse vel nisl, id consequat lacus. Et porttitor vestibulum, blandit quam id. Accumsan lacus,
+                        non tincidunt sed pellentesque facilisi ornare pellentesque ullamcorpe
+                    </div>
+                </div>
+                <div class="client-review__slide swiper-slide review-slide">
+                    <img src="img/review-img.png" alt="" class="review-slide__img"/>
+                    <div class="review-slide__name">David Luice</div>
+                    <div class="review-slide__text">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget lectus pulvinar venenatis volutpat, lacinia sagittis.
+                        Vulputate habitasse vel nisl, id consequat lacus. Et porttitor vestibulum, blandit quam id. Accumsan lacus,
+                        non tincidunt sed pellentesque facilisi ornare pellentesque ullamcorpe
+                    </div>
+                </div>
+                <div class="client-review__slide swiper-slide review-slide">
+                    <img src="img/review-img.png" alt="" class="review-slide__img"/>
+                    <div class="review-slide__name">David Luice</div>
+                    <div class="review-slide__text">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget lectus pulvinar venenatis volutpat, lacinia sagittis.
+                        Vulputate habitasse vel nisl, id consequat lacus. Et porttitor vestibulum, blandit quam id. Accumsan lacus,
+                        non tincidunt sed pellentesque facilisi ornare pellentesque ullamcorpe
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="client-review__pagination"></div>
+    </div>
+
+</section>
+		
+	</main>
+
+	<footer class="footer">
+	<div class="container"></div>
+</footer>
+
+		
+	<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+	<script src="https://unpkg.com/isotope-layout@3.0.6/dist/isotope.pkgd.min.js"></script>
+	<script src="js/main.js"></script>
+</body>
+</html>

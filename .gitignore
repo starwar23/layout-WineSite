@@ -1,0 +1,10 @@
+.idea/*
+.editorconfig
+.stylelintrc
+gulpfile.js
+package.json
+package-lock.json
+app/phpmailer
+src/*
+app/mail.php
+/node_modules/
